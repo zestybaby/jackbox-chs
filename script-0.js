@@ -4898,14 +4898,16 @@ var ow = Qo((uw, Fo) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/fourbage",
-            features: ["moderation", "kicking"]
+            features: ["moderation", "kicking"],
+            categoryId: "Fibbage4Game"
         }, {
             name: "Roomerang",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/htmf",
-            features: ["moderation", "kicking"]
+            features: ["moderation", "kicking"],
+            categoryId: "MakeFriendsGame"
         }, {
             name: "Junktopia",
             tag: "antique-freak",
@@ -10539,23 +10541,23 @@ Url: ${nr(t)}`), !0)
         nw = 1,
         iw = {
             branch: "main",
-            sha: "9c95e1619108b7425c0a64cc534594c26f4e9cc6",
-            lastUpdated: 1666719759577,
-            version: "5.55.0",
+            sha: "c967e6196604f0dcb1b149c30b7de00a44b7d940",
+            lastUpdated: 1669143779438,
+            version: "5.67.0",
             type: "production"
         },
         aw = {
             main: {
-                sha: "9c95e1619108b7425c0a64cc534594c26f4e9cc6",
-                lastUpdated: 1666719759577,
-                version: "5.55.0",
+                sha: "c967e6196604f0dcb1b149c30b7de00a44b7d940",
+                lastUpdated: 1669143779438,
+                version: "5.67.0",
                 type: "production",
                 bundles: {
                     "@connect": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/@connect",
-                        version: "5.55.0"
+                        version: "5.61.0"
                     },
                     "the-wheel": {
                         file: "script.js",
@@ -10831,7 +10833,7 @@ Url: ${nr(t)}`), !0)
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp8/survey-bomb",
-                        version: "5.0.0"
+                        version: "5.67.0"
                     },
                     "triviadeath2-tjsp": {
                         file: "script.js",
@@ -10861,31 +10863,37 @@ Url: ${nr(t)}`), !0)
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/antique-freak",
-                        version: "5.55.0"
+                        version: "5.65.0"
                     },
                     fourbage: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/fourbage",
-                        version: "5.55.0"
+                        version: "5.65.0"
                     },
                     htmf: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/htmf",
-                        version: "5.55.0"
+                        version: "5.66.0"
                     },
                     lineup: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/lineup",
-                        version: "5.55.0"
+                        version: "5.65.0"
                     },
                     "range-game": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/range-game",
-                        version: "5.55.0"
+                        version: "5.65.0"
+                    },
+                    prototype: {
+                        file: "script.js",
+                        css: ["assets/style-0.css"],
+                        base: "main/internal/prototype",
+                        version: "5.57.0"
                     }
                 }
             }
@@ -10912,4 +10920,4 @@ Url: ${nr(t)}`), !0)
     tw()
 });
 export default ow();
-//# sourceMappingURL=44834c16.js.map
+//# sourceMappingURL=a934caff.js.map
