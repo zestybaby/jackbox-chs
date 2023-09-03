@@ -15659,8 +15659,8 @@ const kC = `<div class="canvasContainer">\r
                     <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
                 </svg>
             `,
-                cancelButton: "Cancel",
-                confirmButton: "Confirm"
+                cancelButton: "取消",
+                confirmButton: "确认"
             }
         }
     }),
@@ -16317,9 +16317,9 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             disabled: !1,
             debug: !1,
             strings: {
-                drawing_empty: "You must draw something!",
-                submit: "submit",
-                ERROR_REJECTED_OBJECT: "That's not allowed, enter something else!"
+                drawing_empty: "你必须画点东西！",
+                submit: "提交",
+                ERROR_REJECTED_OBJECT: "不允许输入那个，输入点别的吧！"
             }
         }
     }),
@@ -16541,8 +16541,8 @@ const NC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             inlineSubmitText: "Submit",
             error: "",
             strings: {
-                ERROR_NOTHING_ENTERED: "You need to enter something!",
-                ERROR_REJECTED_TEXT: "That's not allowed, enter something else! (You can change the level of filtering in the game's settings menu)"
+                ERROR_NOTHING_ENTERED: "你必须输入点东西！",
+                ERROR_REJECTED_TEXT: "不允许那个，输入点别的吧！（你可以在设置菜单中更改过滤等级）"
             }
         }
     }),
@@ -17467,10 +17467,10 @@ const zC = `<div id="controller" class="state-controller controller-content">
             announcePrompt: !1,
             countGroupName: null,
             strings: {
-                your_choice: "Thank you. Your choice: ",
-                censor_prompt: "Censor this?",
-                censor_confirm: "Yes, Censor!",
-                censor_cancel: "No!"
+                your_choice: "谢谢。你的选择：",
+                censor_prompt: "屏蔽这个？",
+                censor_confirm: "是的，请屏蔽！",
+                censor_cancel: "不要！"
             }
         }
     }),
@@ -19078,10 +19078,10 @@ const _x = `<div id="controller" class="state-controller controller-content">\r
             doneText: {},
             announcePrompt: !1,
             strings: {
-                your_choice: "Thank you. Your choice: ",
-                censor_prompt: "Censor this?",
-                censor_confirm: "Yes, Censor!",
-                censor_cancel: "No!"
+                your_choice: "谢谢。你的选择：",
+                censor_prompt: "屏蔽这个？",
+                censor_confirm: "是的，屏蔽！",
+                censor_cancel: "不要！"
             }
         }
     }),
