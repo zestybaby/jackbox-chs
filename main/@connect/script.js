@@ -20626,68 +20626,68 @@ var Oae = X$((doe, vI) => {
         }
     }
     const M5 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
-            OK: "OK",
-            NEXT: "Next",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            BACK: "返回",
+            CANCEL: "取消",
+            CLOSE: "关闭",
+            CONFIRM: "确认",
+            CREATE: "创建",
+            DELETE: "删除",
+            DONE: "完成",
+            EDIT: "编辑",
+            OK: "好的",
+            NEXT: "下一个",
+            NO: "否",
+            PLAY: "游玩",
+            PUBLISH: "发布",
+            REMOVE: "删除",
+            RESET: "重置",
+            SUBMIT: "提交",
+            TRY_AGAIN: "重试",
+            UNDO: "撤销",
+            YES: "是"
         },
         D5 = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players’ devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players’ devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "提案已在玩家设备上隐藏",
+                VISIBILITY_CONTROLLER_ON: "提案已在玩家设备上显示",
+                VISIBILITY_SCREEN_OFF: "提案已在游戏屏幕上隐藏",
+                VISIBILITY_SCREEN_ON: "提案已在游戏屏幕上显示"
             }
         },
         k5 = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can’t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "你已断开连接。",
+            DRAWING_NOTHING: "你必须画点东西！",
+            PLAYER_KICKED: "你已被管理员踢出此游戏。",
+            ROOM_DESTROYED: "感谢游玩！",
+            ROOM_DISCONNECTED: "连接断开",
+            TEXT_NAUGHTY: "抱歉，但不可以这么写。请尊重其他玩家。",
+            TEXT_NOTHING: "你不能什么都不输入！",
+            TITLE: "错误"
         },
         U5 = "LOADING",
         B5 = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} / {maxPlayers} 名玩家已加入",
+            PLAYERS_NEEDED: "需要1名玩家开始游戏 | 需要{count}名玩家开始游戏",
+            WAITING_FOR_VIP: "正在等待{name}开始游戏",
+            WAITING_FOR_GAMEPAD: "等待游戏开始",
+            GAME_STARTING: "游戏正在开始",
+            BUTTON_START: "按下以开始",
+            BUTTON_CANCEL: "按下以取消"
         },
         F5 = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "前往图库",
+            PLAY_AGAIN: "再玩一局？",
+            BUTTON_SAME_PLAYERS: "相同玩家",
+            BUTTON_NEW_PLAYERS: "新一批玩家"
         },
         G5 = {
-            AND: "AND",
-            OR: "OR"
+            AND: "和",
+            OR: "或"
         },
         W5 = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let’s Go!"
+            BUTTON_SKIP: "跳过",
+            BUTTON_NEXT: "下一个",
+            BUTTON_DONE: "我们上！"
         },
         H5 = {
             NAME: "AUDIENCE"
@@ -31452,11 +31452,11 @@ ${e}`
         };
     Ln("");
     const qre = {
-            LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Refresh Required",
-            PREFERRED: "PREFERRED BRANCH",
-            SELECT: "Select a Branch",
-            WAITING: "Waiting for Room"
+            LABEL: "分支",
+            REFRESH_REQUIRED: "需要刷新",
+            PREFERRED: "首选分支",
+            SELECT: "选择一个分支",
+            WAITING: "等待房间"
         },
         Yre = {
             ACCEPT_ALL: "给你！",
@@ -31491,44 +31491,44 @@ ${e}`
             ROOM_CODE: "房间代码",
             ROOM_CODE_PLACEHOLDER: "输入4个字符的代码"
         },
-        Xre = "Link to Jackbox Games Homepage",
+        Xre = "访问Jackbox Games的首页",
         Jre = {
-            APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            APPEARANCE: "外观",
+            DARK: "深色",
+            HELP: "帮助",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
-            MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
-            MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            LIGHT: "浅色",
+            LOGOUT: "登出",
+            MERCH: "周边",
+            PAST_GAMES: "游戏记录",
+            MAILING_LIST: "邮件列表",
+            MODERATOR: "管理员"
         },
         Qre = {
             CALL_TO_ACTION: {
-                SHOP: "VIEW GAME & SHOP",
-                VIEW: "VIEW THIS GAME"
+                SHOP: "查看游戏和商店",
+                VIEW: "查看这个游戏"
             },
-            NEW: "NEW",
-            PLAYED_ON: "PLAYED ON",
+            NEW: "新的",
+            PLAYED_ON: "游玩于",
             REMOVE: {
-                CONFIRM: "Are you sure?",
-                DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-                MANAGE: "Remove Game?",
-                TITLE: "Are You Sure?"
+                CONFIRM: "你确定吗？",
+                DESCRIPTION: `这将会从游戏记录
+永久删除此局游戏。`,
+                MANAGE: "删除游戏？",
+                TITLE: "你确定吗？"
             }
         },
         Zre = {
-            EMPTY: "No Past Games Yet",
-            MANAGE: "MANAGE",
-            TITLE: "YOUR PAST GAMES"
+            EMPTY: "没有之前的游戏记录",
+            MANAGE: "管理",
+            TITLE: "你的游戏记录"
         },
         ene = {
-            TITLE: "RECENT GAMES",
+            TITLE: "最近的游戏",
             VIEW_ALL: {
-                BUTTON: "VIEW ALL",
-                LINK: "VIEW ALL PAST GAMES"
+                BUTTON: "查看所有",
+                LINK: "查看所有记录"
             }
         },
         tne = {
