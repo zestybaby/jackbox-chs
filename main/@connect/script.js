@@ -31544,9 +31544,9 @@ ${e}`
             TWITCH_LOGIN: "用Twitch登陆"
         },
         nne = {
-            CAMERA: "[b]HEADS UP:[/b] We’re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-            STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            CAMERA: "[b]注意：[/b]我们没检测到相机，不过你仍可以不使用照片进行游戏。如果你觉得有问题，可以试试使用另一个浏览器进行连接。",
+            STYLE: "[b]注意：[/b]你的浏览器有些过时，并且会在显示游戏时发生一些问题。",
+            TOS: "若点击{submit}，将代表你同意我们的[tos]服务条款[/tos]"
         },
         ine = {
             BRANCH: qre,
