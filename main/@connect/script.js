@@ -19896,8 +19896,8 @@ var zx = {
             },
             T = /[\n\r\t]/g,
             v = /^[A-Z\u2E80-\u9FFFa-z][A-Z\u2E80-\u9FFFa-z0-9+-.]*:\/\//,
-            S = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\\/]+)?([\S\s]*)/i,
-            x = /^[a-zA-Z]:/,
+            S = /^([a-z][a-z\u2E80-\u9FFF0-9.+-]*:)?(\/\/)?([\\/]+)?([\S\s]*)/i,
+            x = /^[a-zA-Z\u2E80-\u9FFF]:/,
             b = /^[\x00-\x20\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]+/;
 
         function R(k) {
@@ -30606,7 +30606,7 @@ var Xi = Um,
                 return new Xi.Token(Xi.Token.Type.startTag, r, n, e[0])
             }
             return new Xi.Token(Xi.Token.Type.endTag, e[1].substr(1, e[1].length - 1))
-        }, t.nameChars = "[a-zA-Z0-9\\.\\-_:;/]", t.valueChars = "[a-zA-Z0-9\\.\\-_:;#/\\s]", t
+        }, t.nameChars = "[a-zA-Z\u2E80-\u9FFF0-9\\.\\-_:;/]", t.valueChars = "[a-zA-Z\u2E80-\u9FFF0-9\\.\\-_:;#/\\s]", t
     }();
 ep.Tokenizer = iQ;
 (function(t) {
