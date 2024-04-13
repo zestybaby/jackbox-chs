@@ -8043,7 +8043,7 @@ const fl = class {
         return this.htmlEscape(n).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z\u2E80-\u9FFF0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+        return e.replace(/[^A-Z0-9\u2E80-\u9FFF!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
         return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -16807,8 +16807,8 @@ const VC = Et.View.extend({
     },
     onRoomWasDestroyed() {
         en.remove("roomCode"), en.remove("reconnect"), kt.show("error", {
-            titleText: "Disconnected",
-            text: "Thanks for playing!",
+            titleText: "断开连接",
+            text: "感谢游玩！",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16816,8 +16816,8 @@ const VC = Et.View.extend({
     },
     onDisconnected() {
         kt.show("error", {
-            titleText: "Disconnected",
-            text: "You have been disconnected.",
+            titleText: "断开连接",
+            text: "你已被断开连接。",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16913,28 +16913,28 @@ const BC = `<div id="controller" class="state-controller controller-content">
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
-                vip_waiting: "Waiting for all players to join",
-                vip_canStart: "Press this button when everybody has joined",
-                vip_cancel: "Press this button to cancel game start",
-                vip_postgame: "What would you like to do now?",
-                vip_episodes_menu: "Episodes Menu",
-                vip_episodes_unload: "Unload Episode",
-                vip_episodes_report: "Report Episode",
-                vip_episodes_warning: "Warning: user generated content is not rated",
-                vip_episodes_load: "Load an episode by id:",
-                vip_episodes_select: "Or select an episode:",
-                vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
-                vip_episodes_view_author: "View Author",
-                button_start: "Everybody's In",
-                button_cancel: "Cancel",
-                button_changename: "Change Name",
-                button_sameplayers: "Same Players",
-                button_newplayers: "New Players",
-                prompt_entername: "Enter your name",
-                prompt_choosecharacter: "Select your character",
-                button_censorOptions: "Censor Options",
+                wait: "坐下来放松一下！",
+                vip_waiting: "等待所有玩家加入",
+                vip_canStart: "在所有人都加入后按下这个按键",
+                vip_cancel: "按下这个按键即可取消开始游戏",
+                vip_postgame: "你现在想做什么？",
+                vip_episodes_menu: "合集菜单",
+                vip_episodes_unload: "取消载入合集",
+                vip_episodes_report: "举报合集",
+                vip_episodes_warning: "警告：用户创建内容没有经过评级",
+                vip_episodes_load: "通过ID载入合集：",
+                vip_episodes_select: "或者选择一个合集：",
+                vip_episodes_back: "返回",
+                vip_episodes_submit: "提交",
+                vip_episodes_view_author: "查看作者",
+                button_start: "所有人到齐",
+                button_cancel: "取消",
+                button_changename: "更改名称",
+                button_sameplayers: "相同玩家",
+                button_newplayers: "新一批玩家",
+                prompt_entername: "输入你的名字",
+                prompt_choosecharacter: "选择你的角色",
+                button_censorOptions: "屏蔽选项",
                 censor_prompt: ""
             }
         }
@@ -17368,13 +17368,13 @@ const BC = `<div id="controller" class="state-controller controller-content">
     }),
     $s = {
         en: {
-            LANGUAGE_NAME: "English",
+            LANGUAGE_NAME: "简体中文",
             SUPPORTED_LANGUAGES: ["English", "Fran\xE7ais", "Italiano", "Deutsch", "Espa\xF1ol"],
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
-            LANGUAGE: "Language",
-            LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            LANGUAGE: "语言",
+            LOGIN: "登录",
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "断开连接",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "感谢游玩！"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -17494,10 +17494,10 @@ const BC = `<div id="controller" class="state-controller controller-content">
             announcePrompt: !1,
             countGroupName: null,
             strings: {
-                your_choice: "Thank you. Your choice: ",
-                censor_prompt: "Censor this?",
-                censor_confirm: "Yes, Censor!",
-                censor_cancel: "No!"
+                your_choice: "谢谢你。你的选择：",
+                censor_prompt: "屏蔽这个？",
+                censor_confirm: "是的，屏蔽吧！",
+                censor_cancel: "不！"
             }
         }
     }),
