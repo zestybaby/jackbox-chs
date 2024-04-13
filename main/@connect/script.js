@@ -73,7 +73,7 @@ const Ht = {},
     },
     AB = /-(\w)/g,
     ni = Ec(t => t.replace(AB, (e, r) => r ? r.toUpperCase() : "")),
-    LB = /\B([A-Z])/g,
+    LB = /\B([A-Z\u2E80-\u9FFF])/g,
     sa = Ec(t => t.replace(LB, "-$1").toLowerCase()),
     mc = Ec(t => t.charAt(0).toUpperCase() + t.slice(1)),
     vd = Ec(t => t ? `on${mc(t)}` : ""),
@@ -11960,7 +11960,7 @@ class ty extends QS {
         this.initialized && (r === "true" && n === null && (n = !1), this.updateSwiperOnPropChange(e, n))
     }
     static get observedAttributes() {
-        return Nc.filter(r => r.includes("_")).map(r => r.replace(/[A-Z]/g, n => `-${n}`).replace("_", "").toLowerCase())
+        return Nc.filter(r => r.includes("_")).map(r => r.replace(/[A-Z\u2E80-\u9FFF]/g, n => `-${n}`).replace("_", "").toLowerCase())
     }
 }
 Nc.forEach(t => {
@@ -19895,7 +19895,7 @@ var zx = {
                 parse: m
             },
             T = /[\n\r\t]/g,
-            v = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//,
+            v = /^[A-Z\u2E80-\u9FFFa-z][A-Z\u2E80-\u9FFFa-z0-9+-.]*:\/\//,
             S = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\\/]+)?([\S\s]*)/i,
             x = /^[a-zA-Z]:/,
             b = /^[\x00-\x20\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]+/;
@@ -25127,7 +25127,7 @@ rc.exports;
             bg = bC + "?",
             Rg = "[" + cg + "]?",
             SC = "(?:" + _g + "(?:" + [gg, pp, dp].join("|") + ")" + Rg + bg + ")*",
-            yC = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])",
+            yC = "\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z\u2E80-\u9FFF_])",
             AC = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])",
             Sg = Rg + bg + SC,
             LC = "(?:" + [xC, pp, dp].join("|") + ")" + Sg,
@@ -25137,7 +25137,7 @@ rc.exports;
             hp = RegExp(cp + "(?=" + cp + ")|" + CC + Sg, "g"),
             IC = RegExp([ha + "?" + Eg + "+" + vg + "(?=" + [dg, ha, "$"].join("|") + ")", RC + "+" + xg + "(?=" + [dg, ha + Tg, "$"].join("|") + ")", ha + "?" + Tg + "+" + vg, ha + "+" + xg, AC, yC, hg, LC].join("|"), "g"),
             NC = RegExp("[" + _g + nu + og + cg + "]"),
-            PC = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/,
+            PC = /[a-z][A-Z\u2E80-\u9FFF]|[A-Z\u2E80-\u9FFF]{2}[a-z]|[0-9][a-zA-Z\u2E80-\u9FFF]|[a-zA-Z\u2E80-\u9FFF][0-9]|[^a-zA-Z\u2E80-\u9FFF0-9 ]/,
             UC = ["Array", "Buffer", "DataView", "Date", "Error", "Float32Array", "Float64Array", "Function", "Int8Array", "Int16Array", "Int32Array", "Map", "Math", "Object", "Promise", "RegExp", "Set", "String", "Symbol", "TypeError", "Uint8Array", "Uint8ClampedArray", "Uint16Array", "Uint32Array", "WeakMap", "_", "clearTimeout", "isFinite", "parseInt", "setTimeout"],
             BC = -1,
             Vt = {};
