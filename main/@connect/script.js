@@ -23881,134 +23881,134 @@ const mW = {
         DONE: "完成",
         EDIT: "编辑",
         OK: "确认",
-        NEXT: "Next",
-        NO: "No",
-        PLAY: "Play",
-        PUBLISH: "Publish",
-        REMOVE: "Remove",
-        RESET: "Reset",
-        SUBMIT: "Submit",
-        TRY_AGAIN: "Try Again",
-        UNDO: "Undo",
-        YES: "Yes"
+        NEXT: "下一个",
+        NO: "否",
+        PLAY: "游玩",
+        PUBLISH: "发布",
+        REMOVE: "删除",
+        RESET: "重置",
+        SUBMIT: "提交",
+        TRY_AGAIN: "重试",
+        UNDO: "撤销",
+        YES: "是"
     },
     gW = {
         UGC: {
-            VISIBILITY_CONTROLLER_OFF: "prompts hidden on players’ devices",
-            VISIBILITY_CONTROLLER_ON: "prompts shown on players’ devices",
-            VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-            VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+            VISIBILITY_CONTROLLER_OFF: "提案已在玩家设备上隐藏",
+            VISIBILITY_CONTROLLER_ON: "提案已在玩家设备上显示",
+            VISIBILITY_SCREEN_OFF: "提案已在游戏屏幕上隐藏",
+            VISIBILITY_SCREEN_ON: "提案已在游戏屏幕上显示"
         }
     },
     _W = {
-        DISCONNECTED: "You have been disconnected.",
-        DRAWING_NOTHING: "You have to draw something!",
-        PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-        ROOM_DESTROYED: "Thanks for playing!",
-        ROOM_DISCONNECTED: "Disconnected",
-        TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-        TEXT_NOTHING: "You can’t enter nothing!",
-        TITLE: "Error"
+        DISCONNECTED: "你已断开连接。",
+        DRAWING_NOTHING: "你必须画点东西！",
+        PLAYER_KICKED: "你已被管理员踢出此游戏。",
+        ROOM_DESTROYED: "感谢游玩！",
+        ROOM_DISCONNECTED: "连接断开",
+        TEXT_NAUGHTY: "抱歉，但不可以这么写。请尊重其他玩家。",
+        TEXT_NOTHING: "你不能什么都不输入！",
+        TITLE: "错误"
     },
-    TW = "LOADING",
+    TW = "载入中",
     vW = {
-        JOINED_COUNT: "{count} of {maxPlayers} players joined",
-        PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-        WAITING_FOR_VIP: "Waiting for {name} to start the game",
-        WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-        WAITING_FOR_NEW_GAME: "Waiting for a new game to start",
-        GAME_STARTING: "Game is starting",
-        BUTTON_START: "Press to Start",
-        BUTTON_CANCEL: "Press to Cancel"
+        JOINED_COUNT: "{count} / {maxPlayers} 名玩家已加入",
+        PLAYERS_NEEDED: "需要1名玩家开始游戏 | 需要{count}名玩家开始游戏",
+        WAITING_FOR_VIP: "正在等待{name}开始游戏",
+        WAITING_FOR_GAMEPAD: "等待游戏开始",
+        WAITING_FOR_NEW_GAME: "等待开始新的一局游戏",
+        GAME_STARTING: "游戏正在开始",
+        BUTTON_START: "按下以开始",
+        BUTTON_CANCEL: "按下以取消"
     },
     xW = {
-        GALLERY_LINK: "Visit the Gallery",
-        NEW_GAME_STARTED: "A new game has started",
-        PLAY_AGAIN: "Play again?",
-        THANKS_FOR_PLAYING: "Thanks for playing!",
-        BUTTON_GO_TO_GAME: "Go to game",
-        BUTTON_GO_TO_JACKBOX: "Back to jackbox.tv",
-        BUTTON_SAME_PLAYERS: "Same players",
-        BUTTON_NEW_PLAYERS: "New players"
+        GALLERY_LINK: "前往图库",
+        NEW_GAME_STARTED: "新一局游戏已经开始了",
+        PLAY_AGAIN: "再玩一局？",
+        THANKS_FOR_PLAYING: "感谢游玩！",
+        BUTTON_GO_TO_GAME: "前往游戏",
+        BUTTON_GO_TO_JACKBOX: "返回至jackbox.tv",
+        BUTTON_SAME_PLAYERS: "相同玩家",
+        BUTTON_NEW_PLAYERS: "新一批玩家"
     },
     bW = {
-        AND: "AND",
-        OR: "OR"
+        AND: "和",
+        OR: "或"
     },
     RW = {
-        BUTTON_SKIP: "Skip",
-        BUTTON_NEXT: "Next",
-        BUTTON_DONE: "Let’s Go!"
+        BUTTON_SKIP: "跳过",
+        BUTTON_NEXT: "下一个",
+        BUTTON_DONE: "我们上！"
     },
     SW = {
-        NAME: "AUDIENCE"
+        NAME: "观众"
     },
     yW = {
         CART: {
-            CHECK_OUT: "Check out",
-            EMPTY: "Your cart is empty",
-            TITLE: "Shopping Cart",
-            TOTAL: "Total"
+            CHECK_OUT: "结账",
+            EMPTY: "你的购物车是空的",
+            TITLE: "购物车",
+            TOTAL: "总计"
         }
     },
     AW = {
-        EPISODE_REPORT: "Report Episode",
-        EPISODE_UNLOAD: "Unload Episode",
-        EPISODE_VIEW_AUTHOR: "View Author",
-        EPISODES_LOAD: "Load an episode by id:",
-        EPISODES_MENU: "Episodes Menu",
-        EPISODES_SELECT: "Or select an epsiode:",
-        EPISODES_WARNING: "Warning: user generated content is not rated",
+        EPISODE_REPORT: "举报合集",
+        EPISODE_UNLOAD: "取消载入合集",
+        EPISODE_VIEW_AUTHOR: "查看作者",
+        EPISODES_LOAD: "通过ID载入合集：",
+        EPISODES_MENU: "合集菜单",
+        EPISODES_SELECT: "或者选择一个合集：",
+        EPISODES_WARNING: "警告：用户创建内容没有经过分级",
         INSTRUCTION: {
-            CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-            LOAD: "create or load?",
-            PUBLISH: "publish your episode",
-            TITLE: "name your episode",
-            TOGGLE_VISIBILITY: "tap to show/hide prompts",
-            WRITE: "write your prompts"
+            CREATE_TITLE: "首先，输入将会包含你的所有提案的合集名称然后点击创建。",
+            LOAD: "创建还是载入？",
+            PUBLISH: "发布你的合集",
+            TITLE: "命名你的合集",
+            TOGGLE_VISIBILITY: "点击来显示或隐藏提案",
+            WRITE: "写下你的提案"
         },
         WARNING: {
-            DELETE: "Are you sure you want to delete this episode?",
-            TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-            TOS_AGREE: "agree and share"
+            DELETE: "你确定要删除这个合集吗？",
+            TOS: "如需分享内容，你需要同意我们的[tos]服务条款[/tos]",
+            TOS_AGREE: "同意并分享"
         },
-        BACK_TO_EPISODES: "back to episodes",
-        BACK_TO_MENU: "back to menu",
-        CREATE_NEW_EPISODE: "create a new episode",
-        PREVIOUS_EPISODES: "previous episodes",
-        PROMPT_ADD: "add prompt",
-        PROMPT_PLACEHOLDER: "enter a prompt",
-        PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-        TITLE_PLACEHOLDER: "enter a title"
+        BACK_TO_EPISODES: "返回至合集",
+        BACK_TO_MENU: "返回至菜单",
+        CREATE_NEW_EPISODE: "创建新的合集",
+        PREVIOUS_EPISODES: "先前的合集",
+        PROMPT_ADD: "增加提案",
+        PROMPT_PLACEHOLDER: "输入一个提案",
+        PROMPTS_COUNT_HIDDEN: "（{count}已隐藏）",
+        TITLE_PLACEHOLDER: "输入标题"
     },
     LW = {
         BROADCASTER: {
-            SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-            WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+            SUBTEXT: "你已成功关联你的账户至Jackbox Audience Kit Twitch扩展。",
+            WARNING: "本房间没有启用观众设置"
         },
         RECONNECTED: {
-            TEXT: "RECONNECTED",
-            SUBTEXT: "Have fun!"
+            TEXT: "已重连",
+            SUBTEXT: "享受乐趣吧！"
         },
         RECONNECTING: {
             CONTROLLER: {
-                TEXT: "CONNECTION INTERRUPTED",
-                SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                TEXT: "连接中断",
+                SUBTEXT: "正在尝试重新连接（第{attempt} / 5次尝试）"
             },
             GAME: {
-                TEXT: "GAME CONNECTION INTERRUPTED",
-                SUBTEXT: "Please wait while we attempt to reconnect"
+                TEXT: "游戏连接中断",
+                SUBTEXT: "请稍等片刻，我们正在尝试重新连接"
             }
         },
         PAUSED: {
-            TEXT: "THE GAME IS PAUSED",
-            SUBTEXT: "Anything you submit will still be sent to the game."
+            TEXT: "游戏已暂停",
+            SUBTEXT: "你提交的内容仍会被发送至游戏。"
         }
     },
     CW = {
-        SHARE: "Share",
-        COPY_TO_CLIPBOARD: "Copy to clipboard",
-        COPIED: "Copied"
+        SHARE: "分享",
+        COPY_TO_CLIPBOARD: "复制到剪贴板",
+        COPIED: "已复制"
     },
     wW = {
         ACTION: mW,
@@ -35157,100 +35157,100 @@ const Mie = Ur(Uie, [
 Nn("");
 const Kie = {
         LABEL: "分支",
-        REFRESH_REQUIRED: "Refresh Required",
-        PREFERRED: "PREFERRED BRANCH",
-        SELECT: "Select a Branch",
-        WAITING: "Waiting for Room"
+        REFRESH_REQUIRED: "需要刷新",
+        PREFERRED: "首选分支",
+        SELECT: "选择一个分支",
+        WAITING: "等待房间"
     },
     kie = {
-        ACCEPT_ALL: "Got it!",
+        ACCEPT_ALL: "好的！",
         CONSENT_MODAL: {
-            ARIA: "Cookie consent form"
+        ARIA: "同意Cookies表单"
         },
-        DESCRIPTION: "We use cookies to improve your game experience and analyze website traffic. Find out more in our [pp]Privacy Policy[/pp].",
-        REJECT_ALL: "Opt out"
+        DESCRIPTION: "我们使用Cookies来改善你的游戏品质，并分析网站流量。可以在我们的[pp]隐私策略[/pp]里找到更多。",
+        REJECT_ALL: "不参与"
     },
     Gie = {
-        UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
-        ROOM_IS_FULL: "The game is full",
-        ROOM_NOT_FOUND: "Room not found",
-        AUDIENCE_IS_FULL: "The audience is full",
-        UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
-        UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
-        KICKED: "You cannot join because you have been kicked by a moderator",
-        REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
-        ROOM_IS_LOCKED: "Game is locked",
-        INCORRECT_PASSWORD: "Incorrect password",
-        GENERIC: "Error joining this game",
-        FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
+        UNSUPPORTED_BROWSER: "本游戏无法支持正在使用的浏览器。查看'?'或帮助来检查支持的浏览器。",
+        ROOM_IS_FULL: "游戏已满",
+        ROOM_NOT_FOUND: "未找到此房间",
+        AUDIENCE_IS_FULL: "观众已满",
+        UNABLE_TO_CONNECT: "无法连接到Jackbox Games的服务器。通常是因为广告拦截或隐私保护扩展引起的。",
+        UNABLE_TO_PRELOAD: "无法预载这个游戏包",
+        KICKED: "你无法加入，因为此前你被房间管理员踢出",
+        REQUIRES_TWITCH_LOGIN: "游戏需要Twitch登陆",
+        ROOM_IS_LOCKED: "游戏已被锁定",
+        INCORRECT_PASSWORD: "密码错误",
+        GENERIC: "加入此游戏失败",
+        FILTER_NAME: "游戏启用了脏话过滤功能。请选择另一个昵称。"
     },
     Vie = {
-        NAME: "NAME",
-        NAME_PLACEHOLDER: "ENTER YOUR NAME",
-        PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-        PASSWORD_REQUIRED_TITLE: "Password required",
-        PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-        PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-        PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-        ROOM_CODE: "ROOM CODE",
-        ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+        NAME: "名字",
+        NAME_PLACEHOLDER: "输入你的名字",
+        PASSWORD_PLACEHOLDER: "输入5个数字的密码",
+        PASSWORD_REQUIRED_TITLE: "需要密码",
+        PASSWORD_REQUIRED_BODY: "请输入密码，或作为观众加入",
+        PASSWORD_JOIN_AS_PLAYER: "作为玩家加入",
+        PASSWORD_JOIN_AS_AUDIENCE: "加入至观众",
+        ROOM_CODE: "房间代码",
+        ROOM_CODE_PLACEHOLDER: "输入4个字符的代码"
     },
-    Fie = "Link to Jackbox Games Homepage",
+    Fie = "访问Jackbox Games的首页",
     Hie = {
-        APPEARANCE: "APPEARANCE",
-        DARK: "dark",
-        HELP: "HELP",
+        APPEARANCE: "外观",
+        DARK: "深色",
+        HELP: "帮助",
         TWITCH: "TWITCH",
-        LIGHT: "light",
-        LOGOUT: "LOGOUT",
-        MERCH: "MERCH",
-        PAST_GAMES: "PAST GAMES",
-        MAILING_LIST: "MAILING LIST",
-        MODERATOR: "MODERATOR"
+        LIGHT: "浅色",
+        LOGOUT: "登出",
+        MERCH: "周边",
+        PAST_GAMES: "游戏记录",
+        MAILING_LIST: "邮件列表",
+        MODERATOR: "管理员"
     },
     Wie = {
         CALL_TO_ACTION: {
-            SHOP: "VIEW GAME & SHOP",
-            VIEW: "VIEW THIS GAME"
+            SHOP: "查看游戏和商店",
+            VIEW: "查看这个游戏"
         },
-        NEW: "NEW",
-        PLAYED_ON: "PLAYED ON",
+        NEW: "新的",
+        PLAYED_ON: "游玩于",
         REMOVE: {
-            CONFIRM: "Are you sure?",
-            DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-            MANAGE: "Remove Game?",
-            TITLE: "Are You Sure?"
+            CONFIRM: "你确定吗？",
+            DESCRIPTION: `这将会从游戏记录
+永久删除此局游戏。`,
+            MANAGE: "删除游戏？",
+            TITLE: "你确定吗？"
         }
     },
     Xie = {
-        EMPTY: "No Past Games Yet",
-        MANAGE: "MANAGE",
-        TITLE: "YOUR PAST GAMES"
+        EMPTY: "没有之前的游戏记录",
+        MANAGE: "管理",
+        TITLE: "你的游戏记录"
     },
     jie = {
-        TITLE: "RECENT GAMES",
+        TITLE: "最近的游戏",
         VIEW_ALL: {
-            BUTTON: "VIEW ALL",
-            LINK: "VIEW ALL PAST GAMES"
+            BUTTON: "查看所有",
+            LINK: "查看所有记录"
         }
     },
     zie = {
-        GAME_FULL: "Game is full",
-        GAME_STARTED: "Game has started",
-        ROOM_NOT_FOUND: "Room not found"
+        GAME_FULL: "游戏已满",
+        GAME_STARTED: "游戏已开始",
+        ROOM_NOT_FOUND: "未找到房间"
     },
     qie = {
-        GAME_FULL: "GAME IS FULL",
-        GAME_STARTED: "GAME HAS STARTED",
-        JOIN_AUDIENCE: "JOIN AUDIENCE",
-        RECONNECT: "RECONNECT",
-        TWITCH_LOGIN: "LOGIN WITH TWITCH"
+        GAME_FULL: "游戏已满",
+        GAME_STARTED: "游戏已开始",
+        JOIN_AUDIENCE: "加入至观众",
+        RECONNECT: "重新连接",
+        TWITCH_LOGIN: "用Twitch登陆"
     },
     Yie = {
-        CAMERA: "[b]HEADS UP:[/b] We’re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-        STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-        TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+        CAMERA: "[b]注意：[/b]我们没检测到相机，不过你仍可以不使用照片进行游戏。如果你觉得有问题，可以试试使用另一个浏览器进行连接。",
+        STYLE: "[b]注意：[/b]你的浏览器有些过时，并且会在显示游戏时发生一些问题。",
+        TOS: "若点击{submit}，将代表你同意我们的[tos]服务条款[/tos]"
     },
     Jie = {
         BRANCH: Kie,
