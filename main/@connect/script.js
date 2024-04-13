@@ -42,7 +42,7 @@ const Ht = {},
     Ha = [],
     Zn = () => {},
     bB = () => !1,
-    RB = /^on[^a-z]/,
+    RB = /^on[^a-z\u2E80-\u9FFF]/,
     dc = t => RB.test(t),
     zE = t => t.startsWith("onUpdate:"),
     nr = Object.assign,
@@ -3231,7 +3231,7 @@ function $M(t, e) {
         }, e.map(n => i => !i._stopped && n && n(i))
     } else return e
 }
-const lv = /^on[a-z]/,
+const lv = /^on[a-z\u2E80-\u9FFF]/,
     KM = (t, e, r, n, i = !1, s, o, f, c) => {
         e === "class" ? LM(t, n, i) : e === "style" ? CM(t, r, n) : dc(e) ? zE(e) || PM(t, e, r, n, o) : (e[0] === "." ? (e = e.slice(1), !0) : e[0] === "^" ? (e = e.slice(1), !1) : kM(t, e, n, i)) ? IM(t, e, n, s, o, f, c) : (e === "true-value" ? t._trueValue = n : e === "false-value" && (t._falseValue = n), OM(t, e, n, i))
     };
@@ -12852,8 +12852,8 @@ var L0 = function(t) {
         var e = Math.random().toString(36).substring(2, 10) + Math.random().toString(36).substring(2, 10);
         return t ? e.substring(0, t) : e
     },
-    B2 = /[a-z0-9][a-z0-9-]*\.[a-z]+$/i,
-    D2 = /[a-z0-9][a-z0-9-]+\.[a-z.]{2,6}$/i,
+    B2 = /[a-z0-9\u2E80-\u9FFF][a-z0-9-]*\.[a-z]+$/i,
+    D2 = /[a-z0-9\u2E80-\u9FFF][a-z0-9-]+\.[a-z.]{2,6}$/i,
     tx = function(t) {
         var e = D2,
             r = t.split("."),
@@ -16028,7 +16028,7 @@ const Fa = class Fa {
         return this.htmlEscape(r).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        return e.replace(/[^A-Z0-9\u2E80-\u9FFF!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
     }
     static sanitizeInput(e) {
         return e = e.replace("…", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -23776,7 +23776,7 @@ class cE {
         return e.replace("…", "...").replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF\u2019]/gi, "")
     }
     static username(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        return e.replace(/[^A-Z0-9\u2E80-\u9FFF!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
     }
     static emoji(e) {
         return e.replace(/(\u00A9|\u00AE|[\u2000-\u2017]|[\u2020-\u3300]|\uD83C[\uD000-\uDFFF]|\uD83D[\uD000-\uDFFF]|\uD83E[\uD000-\uDFFF])/, "")
